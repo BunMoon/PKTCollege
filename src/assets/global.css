@@ -1,0 +1,24 @@
+/* mitr-normal - latin_thai */
+@font-face {
+  font-display: swap;
+  font-family: 'Mitr';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/mitr-normal.woff2') format('woff2'),
+    url('fonts/mitr-normal.ttf') format('truetype');
+}
+
+/* mitr-medium - latin_thai */
+@font-face {
+  font-display: swap;
+  font-family: 'Mitr';
+  font-style: normal;
+  font-weight: 500;
+  src: url('fonts/mitr-medium.woff2') format('woff2'),
+    url('fonts/mitr-medium.ttf') format('truetype');
+}
+
+body {
+  font-family: Mitr, sans-serif;
+  background-color: #fff;
+}
